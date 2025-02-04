@@ -1,0 +1,100 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4; /* لون خلفية الموقع */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* تأكيد أن المحتوى يظهر في منتصف الشاشة */
+}
+
+.profile-container {
+  background: #fff;
+  padding: 30px;
+  max-width: 600px;
+  width: 90%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px; /* حواف مستديرة أكبر */
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px; /* تكبير حجم الخط */
+  color: #333;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 22px;
+  margin-top: 20px;
+  color: #555;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  padding: 14px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px; /* حواف الزر مستديرة أكثر */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#profileData {
+  margin-top: 20px;
+  text-align: left;
+  font-size: 16px;
+}
+
+#profileData p {
+  margin: 10px 0;
+}
+
+#profileData strong {
+  color: #007BFF;
+}
+
+#graphs {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#graphs h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+svg {
+  background: #fff;
+  border-radius: 12px; /* حواف مائلة للرسم البياني */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* إضافة تأثير الظل */
+  padding: 15px;
+}
+
+#xpChart text {
+  font-size: 14px;
+  fill: #333;
+}
+
+#xpChart .axis text {
+  font-size: 16px;
+  fill: #555;
+}
+
+#xpChart rect {
+  fill: steelblue;
+  transition: fill 0.3s ease;
+}
+
+#xpChart rect:hover {
+  fill: #ff7f50; /* تغيير اللون عند التمرير فوق الأعمدة */
+}

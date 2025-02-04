@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+  <div class="profile-container">
+    <h1>Your Profile</h1>
+    <button id="logoutBtn">Logout</button>
+    
+    <div id="profileData">
+      <!-- بيانات المستخدم ستتم إضافتها هنا -->
+    </div>
+
+    
+    <div id="graphs">
+      <h3>XP</h3>
+      <svg id="xpChart" width="600" height="400"></svg>
+      <h3>ِAudit Ratio</h3>
+      <div id="auditChartContainer">
+        <svg id="auditChart" width="600" height="400"></svg>
+      </div>
+      
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
